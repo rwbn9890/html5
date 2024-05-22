@@ -1,0 +1,52 @@
+img{
+			margin:100px;
+				width:200px;
+				transition:1s all
+			
+			}
+			
+			img:hover{
+			rotate:360deg;
+			transform:scale(1.5);
+			}
+			
+			a,button{
+				padding:10px;
+				background-color:red;
+			}
+			
+			a:focus, button:focus{
+			background-color:green;
+			}
+			
+			li:before{
+				content:"\ea5b";
+				font-family:remixicon;
+				margin-right:10px;
+	
+			}
+			
+			.box{
+				width:500px;
+				height:500px;
+				background-color:black;
+				position:relative;
+			}
+			
+			.box:before{
+				content:"";
+				width:100px;
+				height:100px;
+				background-color:red;
+				position:absolute
+			}	
+			.box:after{
+				content:"";
+				width:100px;
+				height:100px;
+				background-color:red;
+				position:absolute;
+				bottom:0;
+				right:0;
+			}
+			
